@@ -1,5 +1,5 @@
 var AWS = require("aws-sdk");
-//AWS Credentials
+//AWS credentials
 AWS.config.update(awsConfig);
 
 let docClient = new AWS.DynamoDB.DocumentClient();
