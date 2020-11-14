@@ -1,0 +1,15 @@
+# package directories
+node_modules
+jspm_packages
+
+# Serverless directories
+candidate-service/.serverless
+
+#.idea directories
+.idea
+.idea/aws.xml
+.idea/modules.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/candidate-service.iml
+.idea/coding-round-evaluator.iml
