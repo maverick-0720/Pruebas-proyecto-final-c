@@ -29,12 +29,9 @@ function traerDatos() {
     fetch('  https://ty7gud8myk.execute-api.us-east-2.amazonaws.com/dev/api')
         .then((res, err) => {
             if (res) {
-              return   JSON.stringify(res.body);
+              console.log(res.json());
             }  else {
                 console.log(err);
             }
-        })
-        .then(data => {
-            console.log(data);
-        })
+        });
 }
